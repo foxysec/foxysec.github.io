@@ -18,3 +18,5 @@ cd Foxy
 pip install -r requirements.txt
 python foxy.py # Start Foxy
 ```
+
+Now you are ready to use [**Foxy**](https://github.com/foxysec/Foxy). If you dont know how to start get help for [**Usage!**](https://foxysec.github.io/usage.html)
