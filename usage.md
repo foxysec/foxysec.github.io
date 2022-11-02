@@ -31,6 +31,13 @@ list command
 ```
 - list command will show you avaliable payloads table.
 ```
+Example : 
+```
+Payload                         Name             Platform
+------------------------------  ---------------  ---------------
+foxy::discord::webhook-spammer  Webhook Spammer  Win/Linux/MacOs
+foxy::net::port-scanner         Port Scanner     Win/Linux/MacOs
+```
 
 **Here is the sample of** `foxy::net::port-scanner` **payload usage :**
 
