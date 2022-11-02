@@ -30,7 +30,7 @@ help command
 list command
 ```
 - list command will show you avaliable payloads table.
-
+```
 
 **Here is the sample of** `foxy::net::port-scanner` **payload usage :**
 
@@ -38,7 +38,9 @@ Set payload to start :
 ```
 [Foxy] > set payload foxy::net::port-scanner
 ```
+
 `show` Command to see setted variables. (It is null at start.)
+
 ```
 ___________________________________________
 ● Config :
@@ -50,19 +52,26 @@ ___________________________________________
     set target:<target_ip>
 ___________________________________________
 ```
+
 Set target to start exploit.
 ```
 [foxy::net::port-scanner] > set target:5.2.84.221
 ```
+
 Output will show you setted information :
+
 ```
 target ==> 5.2.84.221
 ```
+
 And you are ready to run (exploit) :
+
 ```
 [foxy::net::port-scanner] > run
 ```
+
 Output will be like this.
+
 ```
 [*] Starting port scanning for 5.2.84.221.
 
